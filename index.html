@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>My First Web Page</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <input type="number" id="seconds" min="0" max="120" placeholder="Enter your time">
+    <button onclick="startTimer()">Start</button>
+    <span id="countdown">      
+    </span>
+  </body>
+</html>
+
+<!--
+Create a timer component with the following features:
+1. An input field where users can enter an integer value from 0 to 120 (seconds).
+2. A start button to initiate the countdown.
+3. The timer should count down from the input value to zero.
+4. [Bonus] The timer state should be stored so that if the page is refreshed, the countdown will continue from where it left off.
+-->
